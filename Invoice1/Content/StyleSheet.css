@@ -1,0 +1,188 @@
+﻿
+
+
+#nav {
+    height: 145px;
+    width: 100%;
+    
+    /* align-items: center;
+    
+    display: flex;
+    justify-content: flex-start;
+    z-index: 99;*/
+    gap: 50px;
+}
+    #nav ul {
+        /*
+        display: flex;
+        justify-content: flex-start;
+        z-index: 99;*/
+        gap: 40px;
+        float:right;
+        padding: 0 350px;
+        font-family: 'Lemon', serif;
+    }
+
+video {
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    
+
+}
+#choose {
+    background-image: url('bikes/banner1.jpg');
+    align-items: center;
+    
+}
+#content {
+    border-radius: 20px;
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    text-align: center;
+    
+}
+body {
+    background-color: #fef5e9;
+    font-family: 'Lemon', serif;
+}
+.container1 {
+    text-align: center;
+    font-family: 'Lemon', serif;
+    padding: 30px;
+    
+}
+    .container1 h6 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+
+#about {
+    padding: 150px;
+    background-color: white;
+    border-radius: 100px;
+}
+.about h2 {
+    font-family: 'Lemon', serif;
+}
+.about p {
+    font-family: 'Dancing Script', cursive;
+}
+#title {
+    padding: 150px;
+    text-align: center;
+    font-family: 'Lemon', serif;
+}
+#title1 {
+    padding: 150px;
+    text-align: center;
+    font-family: 'Lemon', serif;
+}
+#contactform {
+    height: 400px;
+    width: 600px;
+    align-items: center;
+    
+}
+.copyright {
+    align-items: center;
+   
+    padding: 20px;
+}
+#form {
+    background: url('bikes/aboutpage.jpg');
+}
+.container3 {
+    align-items: center;
+    padding: 0 380px;
+    
+   
+}
+h2 {
+    font-family: 'Lemon', serif;
+}
+p {
+    font-family: 'Dancing Script', cursive;
+}
+ul {
+        font-family: 'Dancing Script', cursive;
+    }
+.container4 {
+    text-align: center;
+    font-family: 'Lemon', serif;
+    padding: 50px;
+    
+}
+    .container4 h6 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .container4 p {
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+    }
+.card {
+    align-content:center;
+}
+
+.sidebar {
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+    .sidebar header {
+        font-size: 22px;
+        color: black;
+        text-align: center;
+        line-height: 70px;
+       
+        user-select: none;
+    }
+    .sidebar ul a {
+        height: 100%;
+        width: 100%;
+        line-height: 65px;
+        font-size: 20px;
+        color: mediumpurple;
+        padding-left: 20px;
+        box-sizing: border-box;
+        transition: .4s;
+    }
+    ul li:hover a{
+        padding-left: 40px;
+
+
+    }
+    .siderbar ul a i{
+        margin-right: 16px;
+
+    }
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+
+
+    
+
+
+
+
+
+

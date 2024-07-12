@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin1.master.cs" Inherits="Invoice1.Admin.Dashboard.admin1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../../Content/StyleSheet.css" rel="stylesheet" />
+    <link href="../../Content/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <section>
+                <div class="container1">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="">
+
+                                <div class="sidebar">
+                                    <header>
+                                        Admin
+                    
+                        <img alt="ne" class="user-img" src="../../Content/bikes/NS%20200.jpg" />
+
+
+                                    </header>
+                                    <ul>
+
+
+                                        <li><a href="home.aspx"><i class=" "></i>Home</a></li>
+                                        <li><a href="Images.aspx"><i class=" "></i>Images </a></li>
+
+                                        <li><a href="bikesbooked.aspx"><i class=" "></i>Booked Bikes</a></li>
+                                        <li><a href="Customers.aspx"><i class=" "></i>Customers</a></li>
+                                        <li><a href="Blogs1.aspx"><i class=" "></i>Blogs</a></li>
+
+                                        <asp:Button ID="Button1" runat="server" Text="Logout" />
+
+
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

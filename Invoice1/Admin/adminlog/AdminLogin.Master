@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminLogin.master.cs" Inherits="Invoice1.Admin.adminlog.AdminLogin1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <section>
+    <div class="container">
+        <div class="myform">
+            
+                <h2>ADMIN lOGIN</h2>
+                <input type="text" placeholder="Admin Name" />
+                <input type="password" placeholder="Password" />
+                <asp:Button ID="login" name="login" runat="server" Text="LOGIN" />
+                <br />
+                <br />
+                
+                <p>
+                    <a href="AdminRegister.aspx">Admin Register Here</a>
+                </p>
+
+
+        </div>
+
+        <div class="image">
+            <img src="../Content/bikes/ladakh.jpg" />
+
+        </div>
+    </div>
+</section>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
